@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pymongo
+passlib[bcrypt]
+transformers
+torch
+Pillow
+python-multipart
+python-dotenv
