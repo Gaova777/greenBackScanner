@@ -2,7 +2,8 @@ import os
 from transformers import ViTForImageClassification, ViTImageProcessor
 from PIL import Image
 import torch
-from config import HUGGING_FACE_TOKEN
+from dotenv import load_dotenv
+load_dotenv()
 
 model_name = "yangy50/garbage-classification"
 
